@@ -5,11 +5,12 @@
    background: lightgoldenrodyellow;
    border: 1px solid #ccc;
    text-align: center;
+   font-size: 11px;
 }
 
 #controls div {
    display: inline-block;
-   width: 50%;
+   width: 350px;
    margin: 15px;
    padding: 3px;
    background: #eee;

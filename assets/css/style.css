@@ -1,0 +1,32 @@
+/* body {
+} */
+
+#controls {
+   background: lightgoldenrodyellow;
+   border: 1px solid #ccc;
+   text-align: center;
+}
+
+#controls div {
+   display: inline-block;
+   width: 50%;
+   margin: 15px;
+   padding: 3px;
+   background: #eee;
+   border: 1px solid #aaa;
+}
+
+#map {
+   height: 600px
+}
+
+select {
+   background: white;
+}
+
+button {
+   height: 31px;
+   border-radius: 0px;
+   border: 1px solid #ccc;
+   padding: 0 10px;
+}

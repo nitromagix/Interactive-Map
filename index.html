@@ -13,34 +13,21 @@
    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
       crossorigin=""></script>
-
    <link rel="stylesheet" href="./assets/css/style.css" />
-
-   <style>
-      body {
-         text-align: center;
-      }
-
-      #controls {
-         background: lightgoldenrodyellow;
-         border: 1px solid #ccc
-      }
-
-      #map {
-         height: 600px
-      }
-
-      #businessType {
-         margin: 20px
-      }
-   </style>
-
    <title>interactive map</title>
 </head>
 
 <body>
    <div id="controls">
-      <select id="businessType" name="businessType"></select>
+      <div>
+         <span>Find:</span>
+         <select id="business" name="business"></select>
+         <span>within:</span>
+         <select id="radius" name="radius"></select>
+         <span>radius</span>
+         
+      </div>
+      <button id="search" onclick="search();">Search</button>
    </div>
    <div id="map"></div>
 </body>

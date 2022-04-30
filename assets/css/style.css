@@ -1,20 +1,25 @@
-/* body {
-} */
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 #controls {
    background: lightgoldenrodyellow;
    border: 1px solid #ccc;
    text-align: center;
-   font-size: 11px;
+   align-items: center;
+   font-size: 13px;
 }
 
 #controls div {
    display: inline-block;
-   width: 350px;
-   margin: 15px;
-   padding: 3px;
+   margin: 10px;
+}
+
+#find {
+   width: auto;
    background: #eee;
    border: 1px solid #aaa;
+   padding: 5px;
 }
 
 #map {
@@ -23,10 +28,12 @@
 
 select {
    background: white;
+   border: 1px solid #ccc;
 }
 
 button {
-   height: 31px;
+   display: inline-block;
+   height: 33px;
    border-radius: 0px;
    border: 1px solid #ccc;
    padding: 0 10px;

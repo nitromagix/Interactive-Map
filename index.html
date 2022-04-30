@@ -17,7 +17,7 @@
 
 <body>
    <div id="controls">
-      <div>
+      <div id="find">
          <span>Find:</span>
          <select id="business" name="business"></select>
          <span>within:</span>
@@ -25,7 +25,10 @@
          <span>radius</span>
 
       </div>
-      <button id="search" onclick="search();">Search</button>
+      <div>
+         <button id="search" onclick="search();">Search</button>
+         <button id="clearSearch" onclick="clearSearch();">Clear search</button>
+      </div>
    </div>
    <div id="map"></div>
    <script src="app.js" defer></script>

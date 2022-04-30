@@ -10,7 +10,7 @@ body {
    font-size: 13px;
 }
 
-#controls div {
+#controls {
    display: inline-block;
    margin: 10px;
 }
@@ -20,6 +20,13 @@ body {
    background: #eee;
    border: 1px solid #aaa;
    padding: 5px;
+   display: inline-block;
+   margin: 10px;
+}
+
+#buttons {
+   display: inline-block;
+   margin: 10px;
 }
 
 #map {
